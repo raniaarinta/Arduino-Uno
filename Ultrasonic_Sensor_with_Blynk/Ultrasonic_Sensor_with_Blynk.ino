@@ -34,10 +34,10 @@ void loop()
 void sendSensor()
 {
   digitalWrite(TRIGGERPIN, LOW);   
-  delayMicroseconds(2);       
+  delayMicroseconds(3);       
 
   digitalWrite(TRIGGERPIN, HIGH);  
-  delayMicroseconds(10);      
+  delayMicroseconds(12);      
   digitalWrite(TRIGGERPIN, LOW);
   
   long duration,distance;   
