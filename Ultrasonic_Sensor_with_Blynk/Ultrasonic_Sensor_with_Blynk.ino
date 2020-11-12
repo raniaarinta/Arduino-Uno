@@ -54,7 +54,7 @@ void sendSensor()
     digitalWrite(led2, LOW);
     digitalWrite(led3, LOW);
   }
-  else if(distance >20)
+  else if(distance < 10 && distance < 20)
   {
     digitalWrite(led1, LOW);
     digitalWrite(led2, HIGH);
