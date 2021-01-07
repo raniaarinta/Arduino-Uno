@@ -7,10 +7,10 @@ int Led=0,led1=13,led2=12,led3=14;
 
 int btnPin,btnpin2,btnpin3,btnpin4;
 
-char auth[]="221dbb17948e4fd8891f2249c0d5bf6f";
+char auth[]="";
 
-char ssid[]="rania";
-char pass[]="rania123";
+char ssid[]="";
+char pass[]="";
 
 BLYNK_WRITE(V1)
 {
